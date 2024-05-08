@@ -1,0 +1,53 @@
+.big{
+    transition-duration: 0.2s;
+}
+.big:hover{
+    transform: scale(1.04);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    font-size: 1.5rem;
+}
+.p3{
+    font-size: 3rem;
+}
+.p5{
+    font-size: 5rem;
+}
+.dislay{
+    display: flex;
+    flex-direction: row;
+    color: aqua;
+}
+/* .nav{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    list-style: none;
+} */
+@media screen and (max-width: 480px){
+    .header{font-size: 12px;
+         font-weight: 500;
+        /* height: 100vh; */
+          background-color: aqua; 
+    }
+  
+   
+    .p1{
+        font-size: 1rem;
+    }   
+    .p3{
+        font-size: 2rem;
+    } 
+    .p5{
+        font-size: 2.5rem;
+    } 
+  
+}
